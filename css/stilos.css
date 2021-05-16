@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Press Start 2P', cursiva;
+    background: url(https://www.pcworld.es/cmsdata/features/3785481/02_cazar_pokemon_casa.jpg)center center no-repeat;
+}
+
+header {
+    width: 100%;
+}
+
+.pokemon {
+    width: 100%;
+}
+
+.imagen {
+    width: 100px;
+    /*height: 500px;*/
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    z-index: 10;
+    margin-left: -340px;
+}
+
+.imagen2 {
+    z-index: 10;
+    width: 100%;
+    position: relative;
+}
+
+.contenedor {
+    width: 100%;
+    margin-top: 300px;
+}
+
+.Tabla {
+    max-width: 1160px;
+    margin: 0 auto;
+    color: rgb(253, 254, 255);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    /*  justify-content: space-around;*/
+    /* padding: 12px 0;*/
+    width: 470px;
+    padding: 4em;
+    /*  border: 2px solid rgb(55, 1, 1);*/
+    border-radius: 8px;
+    background-color: rgba(76, 6, 104, 0.3);
+    padding-top: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-top: 3em;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    /*width: 110px;*/
+    text-align: justify;
+}
+
+input,
+textarea {
+    /*font: sans-serif;*/
+    width: 330px;
+    box-sizing: border-box;
+    border: 1px solid rgb(231, 19, 255);
+}
+
+button {
+    /*margin-top: 1em;*/
+    margin-bottom: 1px;
+    /*padding-left: 1px;*/
+    margin-left: 1px;
+    background-color: rgba(149, 0, 208, 0.3);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    width: 220px;
+}
+
+.Fondo_base {
+    width: 100%;
+    padding-top: 50em;
+    z-index: 10;
+    background: url()
+}
+
+
+/*
+.imges {
+    display: block;
+    margin: auto;
+    width: 100px;
+}*/
+
+.caja {
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+}
+
+.texto {
+    color: #0c92ac;
+    font-weight: bold;
+    padding: 0 5px;
+    border: 2px solid #abecf9;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.h6 {
+    color: #263d5a;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.contenido {
+    margin: auto;
+    display: table;
+    padding: 15px;
+}

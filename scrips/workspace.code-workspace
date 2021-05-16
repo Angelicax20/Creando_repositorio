@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"path": "..\\..\\carpeta visual studio\\javaScrip"
+		},
+		{
+			"path": "..\\..\\pagWeb"
+		},
+		{
+			"path": ".."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Taller-angelica"
+    }
+}

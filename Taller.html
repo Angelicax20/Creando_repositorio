@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Presione + Inicio + 2P & display = swap" rel="hoja de estilo">
+    <title> INVOCAR</title>
+    <link rel="stylesheet" href="./css/stilos.css">
+
+</head>
+
+<div class="pokemon">
+    <div class="imagen">
+        <li><img src="./pokemon.png"></li>
+    </div>
+</div>
+
+<!--<div class="imagen2">
+    <img src="./fondoPokemon.jpg" alt="" srcset="">
+</div>-->
+
+<body onload="reaload()">
+
+    <header>
+        <form action=" " id="frmEnviar">
+            <div class="contenedor">
+                <div class="Tabla">
+                    <ul>
+                        <li>
+                            <label for="NOMBRE">BUSCAR POR NOMBRE </label>
+                            <input type="text" id="NOMBRE">
+                        </li>
+                        <li>
+                            <button type="submit" id="BotonNombre">INVOCAR POKEMON</button>
+
+                            <li>
+                                <label for="ID">BUSCAR POR ID </label>
+                                <input type="number" id="ID">
+                            </li>
+                            <li>
+                                <button type="submit" id="BotonId">INVOCAR POKEMON</button>
+
+                                <li>
+                                    <label for="CANTIDAD">CANTIDAD </label>
+                                    <input type="number" id="CANTIDAD">
+                                </li>
+                                <li>
+                                    <button type="submit" id="BotonCantidad">BUSCAR POKEMONES</button>
+                                </li>
+                                <li>
+                                    <button type="submit" id="BotonLista">LISTA DE POKEMONES</button>
+                                </li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </header>
+
+    <div id="seccion_pokemon" class="seccion_pokemon" class="caja"></div>
+
+    <div class="caja" id="lista-pokemon">
+        <h6 class="h6"></h6>
+        <img id="imges" src="" width="100px" height="100px">
+        <p class="texto"></p>
+        <h4 id="habilidades"></h4>
+        <div id="ulListado"></div>
+    </div>
+    <script src="./scrips/Scrips.js"></script>
+
+</body>
+
+</html>
